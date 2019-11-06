@@ -1,0 +1,321 @@
+@import "reset";
+@import (reference)"common";
+
+html body {
+    background: #f5f5f5;
+}
+
+// 顶部导航
+.header {
+    @W: 100%;
+
+    width: @W;
+    height: 108px;
+    background-color: #FFF;
+
+    .nav {
+        margin: 0 auto;
+        width: 1496px;
+        height: 48px;
+
+        // 顶部左侧logo 
+        .header-left {
+            width: 206px;
+
+
+            a {
+                float: left;
+                display: block;
+                color: #444;
+                font-size: 14px;
+                line-height: 48px;
+                margin-right: 25px;
+
+                &:nth-child(1) {
+                    width: 80px;
+                    height: 28px;
+                    background-image: url(https://huaban.com/img/logo.svg);
+                    background-repeat: no-repeat;
+                    margin-right: 20px;
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        // 顶部中部搜索框
+        .header-content {
+            position: relative;
+            float: left;
+            width: 997px;
+            height: 32px;
+            background: #fafafa;
+            margin: 7px 0 0 0;
+            border: 1px solid #ddd;
+            border-radius: 2px;
+            overflow: hidden;
+
+            // 采集部分
+            .line {
+                float: left;
+                width: 74px;
+                height: 36px;
+                // padding: 8px 0 0 10px;
+                text-align: center;
+                line-height: 36px;
+                font-size: 14px;
+                color: #999;
+                margin-left: 0px;
+
+                i {
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    background-image: url(https://huaban.com/img/ic-arrow-down.svg);
+                    background-repeat: no-repeat;
+                    margin: 5px 6px 2px 5px;
+                }
+            }
+
+            // 搜索框
+            form {
+
+                // width: 920px;
+                // height: 38px;
+                input {
+                    width: 910px;
+                    height: 34px;
+
+                    border: 0;
+                    background: #fafafa;
+                    font-size: 14px;
+                    line-height: 34px;
+                }
+            }
+
+            &>i {
+                position: absolute;
+                top: 0;
+                right: 0;
+                display: block;
+                width: 32px;
+                height: 32px;
+                background: url(../img/menu_sprite.svg) 5px -93px no-repeat;
+            }
+        }
+
+        // 顶部右侧
+        .header-right {
+            position: relative;
+            margin-left: 20px;
+            width: 271px;
+            height: 48px;
+            float: left;
+
+            // 3 项设计赛征集中
+            .text {
+                float: left;
+                margin-top: 0.5px;
+                // width: 113px;
+                height: 48px;
+                line-height: 48px;
+
+                a {
+                    background-color: #f6f6f6;
+                    padding: 4px 6px;
+                    color: #fc4349;
+                    font-size: 13px;
+                }
+            }
+
+            // 顶部右侧icon
+            &>a {
+                float: left;
+                display: block;
+                width: 46px;
+                height: 48px;
+                background: url(../img/menu_sprite.svg) 0 0 no-repeat;
+                margin-top: 15px;
+                margin-left: 20px;
+            }
+
+            // 登录与注册
+            .onload {
+                // float: right;
+                box-sizing: border-box;
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 99px;
+                height: 34px;
+                background: #EC414D;
+                color: #fff;
+                box-shadow: none;
+                border: 1px solid #EC414D;
+                border-radius: 2px;
+                margin-top: 7px;
+                margin-left: 5px;
+                padding-left: 20px;
+
+                a {
+                    display: inline-block;
+                    height: 32px;
+                    line-height: 32px;
+                    // text-align: center;
+                    color: #fff;
+                    font-size: 14px;
+
+                }
+            }
+        }
+    }
+
+    .header-bar {
+        width: 100%;
+        // width: 1905px;
+        height: 60px;
+        background-size: 100% 100%;
+        background-image: url(https://hbimg-other.huabanimg.com/img/promotion/f5f97db5ed824e96949ce413cc2d3827b1aa4c6d398b3);
+    }
+}
+
+// <!-- 主要部分 -->
+.all-main {
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 30px;
+    background-color: #f5f5f5;
+    height: 100%;
+
+    // 字体样式
+    .fontStyle {
+        line-height: 60px;
+        font-size: 14px;
+
+    }
+
+    .main {
+        margin: 0 auto;
+        width: 1496px;
+        height: 100%;
+
+        // <!-- 中部信息条 -->
+        .main-bar {
+            padding: 10px 0 12px;
+            width: 1496px;
+            height: 60px;
+            background-color: #fafafa;
+            padding: 0 20px;
+
+            &>span {
+                .fontStyle();
+                color: #444;
+
+                &>span {
+                    // fontStyle();
+                    color: #999;
+                }
+            }
+
+        }
+
+        // <!-- 瀑布流内容 -->
+        .main-con {
+            height: 100%;
+            margin-top: 30px;
+            width: 1496px;
+            background-color: #f5f5f5;
+
+            // 加载内容样式
+            .box {
+                width: 1496px;
+                height: 100%;
+
+                li {
+                    float: left;
+                    margin-right: 24px;
+                    width: 350px;
+
+                    a {
+                        display: block;
+                        margin-bottom: 10px;
+                        padding: 10px;
+                        background: #FFF;
+                        box-shadow: 3px 3px 10px 0 #666;
+
+                        img {
+                            display: block;
+                            width: 100%;
+                        }
+
+                        p {
+                            display: block;
+                            margin: 10px;
+                            color: #666;
+                            line-height: 20px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 底部样式
+.footer {
+    background-color: #f5f5f5;
+
+    .foot-box {
+        // display: block;
+        padding: 20px;
+        margin: 20px auto;
+        margin-bottom: 20px;
+        width: 800px;
+        // height: 300px;
+        background-color: #fff;
+
+        .title {
+            color: #000;
+            font-size: 25px;
+            text-align: center;
+            line-height: 50px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .title-box {
+            li {
+                line-height: 25px;
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+// <!-- 返回顶部 -->
+.back{
+    display: none;
+   position: fixed;
+    bottom: 100px;
+    right: 175px;
+    width: 50px;
+    height: 140px;
+    background: rgba(0,0,0,.6);
+    ul{
+        // margin: auto;
+        li{
+            background: rgba(0,0,0,.6);
+            margin-bottom: 10px;
+            width: 40px;height: 36px;
+            &:nth-child(1){
+                background: url(../img/backtop.svg) 8px 6px no-repeat;
+            }
+            &:nth-child(2){
+                background: url(../img/backtop.svg) 8px -74px no-repeat;
+            }
+            &:nth-child(3){
+                background: url(../img/backtop.svg) 8px -34px no-repeat;
+            }
+        }
+    }
+
+}

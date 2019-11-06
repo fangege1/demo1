@@ -1,0 +1,221 @@
+@import "reset";
+@import (reference)"common";
+
+// 顶部导航
+.header {
+    @W: 100%;
+
+    width: @W;
+    height: 108px;
+
+    .nav {
+        margin: 0 auto;
+        width: 1496px;
+        height: 48px;
+
+        // 顶部左侧logo 
+        .header-left {
+            width: 206px;
+            // height: 28px;
+
+            a {
+                float: left;
+                display: block;
+                color: #ffffff;
+                font-size: 14px;
+                line-height: 48px;
+                margin-right: 25px;
+
+                &:nth-child(1) {
+                    width: 80px;
+                    height: 28px;
+                    background-image: url(https://huaban.com/img/logo_wt.svg);
+                    background-repeat: no-repeat;
+                    margin-right: 20px;
+                    margin-top: 10px;
+                }
+            }
+        }
+        // 顶部右侧
+        .header-right {
+
+            position: relative;
+            margin-left: 20px;
+            width: 271px;
+            height: 48px;
+            float: right;
+
+            // 3 项设计赛征集中
+            .text {
+                float: left;
+                margin-top: 0.5px;
+                // width: 113px;
+                height: 48px;
+                line-height: 48px;
+
+                a {
+                    background-color: #f6f6f6;
+                    padding: 4px 6px;
+                    color: #fc4349;
+                    font-size: 13px;
+                }
+            }
+
+            // 顶部右侧icon
+            &>a {
+                float: left;
+                display: block;
+                width: 46px;
+                height: 48px;
+                background: url(../img/menu_sprite.svg) 0 0 no-repeat;
+                margin-top: 15px;
+                margin-left: 20px;
+            }
+
+            // 登录与注册
+            .onload {
+                // float: right;
+                box-sizing: border-box;
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 99px;
+                height: 34px;
+                background: #EC414D;
+                color: #fff;
+                box-shadow: none;
+                border: 1px solid #EC414D;
+                border-radius: 2px;
+                margin-top: 7px;
+                margin-left: 5px;
+                padding-left: 20px;
+
+                a {
+                    display: inline-block;
+                    height: 32px;
+                    line-height: 32px;
+                    // text-align: center;
+                    color: #fff;
+                    font-size: 14px;
+
+                }
+            }
+        }
+    }
+}
+.main{
+    margin: 50px auto;
+    width: 690px;height: 636px;
+    .title{
+        text-align: center;
+        line-height: 100px;
+        font-size: 44px;
+        color: #fff;
+    }
+    .per{
+        
+        text-align: center;
+        line-height: 30px;
+        color: #fff;
+        font-size: 12px;
+    }
+    form{
+        margin: 50px auto;
+        position: relative;
+        width: 536px;
+        height: 40px;
+        input{
+            width: 536px;
+            height: 40px;
+            border: 0.5px;
+            border-radius: 2px;
+            font-size: 15px;
+        }
+    }
+    i{
+        position: absolute;
+        top: 5px;
+        right: 0;
+        display: block;
+        width: 32px;
+        height: 32px;
+        background: url(../img/menu_sprite.svg) 5px -93px no-repeat;
+    }
+}
+.onload1{
+    display: none;
+    position: absolute;
+    left: 0;top: 0;right: 0;bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.411);
+    border-radius: 5px;
+
+    .onl{
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: rgba(24, 24, 24, 0.842);
+        position: absolute;
+        left: 50%;top: 50%;
+        margin: -150px 0 0 -200px;
+        border-radius: 5px;
+        // box-shadow: 10px 10px 5px 5px rgba(255, 255, 255, 0.569);
+        box-shadow: 5px 5px 10px 5px rgba(252, 248, 248, 0.377);
+        &>a{
+            display: block;
+           margin: 10px;
+            color: rgb(235, 97, 97);
+            font-size: 20px;
+            // margin: 50px 0 0 100px;
+            text-align: center;
+        }
+        &>span{
+            display: block;
+            position: absolute;
+            top: 0;right: 0;
+            background-color: rgba(255, 255, 255, 0.623);
+            border-radius: 10px;
+            color: #000;
+            width: 20px;height: 20px;
+            font-size: 20px;
+            text-align: center;
+            line-height: 20px;
+            cursor: pointer;
+        }
+        .box1{
+            margin: 50px auto;
+            width: 350px;
+            height: 90px;
+            label{
+                font-size: 18px;
+                color: #fff;
+            }
+            input{
+                font-size: 16px;
+                margin-bottom: 20px;
+                width: 250px;
+                height: 35px;
+                border: 1px solid rgba(255, 255, 255, 0.877);
+            }
+            .btn1{
+                width: 400px;
+                margin: 20px auto;
+                button{
+                    width: 100px;
+                    height: 40px;
+                    border-radius: 5px;
+                    margin-left: 40px;
+                    box-shadow: 0px 0px 6px 0 rgba(255, 255, 255, 0.658);
+                    // border: 0.5 solid rgb(207, 153, 153);
+                    border: 0;
+                    background-color: rgb(63, 117, 235);
+                    color: #fff;
+                    font-size: 16px;
+                }                
+            }
+
+        }
+
+    }
+}

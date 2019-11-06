@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "HUAWEI Mate 30 Pro 4GB+64GB 全网通版",
+    "price": 3899,
+    "time": "2019-03-15",
+    "hot": 198,
+    "img": "img/01.jpg"
+  },
+  {
+    "id": 2,
+    "title": "HUAWEI Mate 30 Pro 5G 6GB+256GB 全网通版（曜石黑）",
+    "price": 2399,
+    "time": "2019-02-08",
+    "hot": 25,
+    "img": "img/02.jpg"
+  },
+  {
+    "id": 3,
+    "title": "HUAWEI Mate 30 RS 保时捷设计 全网通标配版（香槟金）",
+    "price": 899,
+    "time": "2019-01-25",
+    "hot": 568,
+    "img": "img/03.jpg"
+  },
+  {
+    "id": 4,
+    "title": "HUAWEI Mate 20 X (5G) 4GB+64GB 全网通版（曜石黑）",
+    "price": 2399,
+    "time": "2018-12-30",
+    "hot": 20000,
+    "img": "img/04.jpg"
+  },
+  {
+    "id": 5,
+    "title": "HUAWEI P30 4GB+64GB 全网通版（玫瑰金）",
+    "price": 2199,
+    "time": "2018-01-30",
+    "hot": 1032654,
+    "img": "img/05.jpg"
+  },
+  {
+    "id": 6,
+    "title": "HUAWEI nova 5 Pro Plus 4GB+64GB 全网通高配版（香槟金）",
+    "price": 1699,
+    "time": "2019-03-01",
+    "hot": 1,
+    "img": "img/06.jpg"
+  },
+  {
+    "id": 7,
+    "title": "HUAWEI 麦芒8 4GB+64GB 全网通版（樱语粉）",
+    "price": 1799,
+    "time": "2018-02-19",
+    "hot": 400,
+    "img": "img/07.jpg"
+  },
+  {
+    "id": 8,
+    "title": "HUAWEI Mate 20 Pro 4GB+64GB 全网通版（曜石黑）",
+    "price": 3488,
+    "time": "2019-01-25",
+    "hot": 240,
+    "img": "img/8.jpg"
+  },
+  {
+    "id": 9,
+    "title": "HUAWEI Mate 20 X 6GB+128GB 全网通版（钻雕金）",
+    "price": 4488,
+    "time": "2017-12-01",
+    "hot": 12345678,
+    "img": "img/09.jpg"
+  },
+  {
+    "id": 10,
+    "title": "HUAWEI nova 5i Pro 保时捷设计 6GB+256GB 全网通版（曜石黑）",
+    "price": 8999,
+    "time": "2016-01-21",
+    "hot": 12345678,
+    "img": "img/10.jpg"
+  }
+]
